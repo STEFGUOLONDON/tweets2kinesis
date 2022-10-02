@@ -1,10 +1,16 @@
 # Stream Tweets and Put them to AWS Kinesis Data Streams
 
-This project deals with how you can stream tweets using Twitter API v2 using Tweepy and insert them into a Kinesis Data Stream. This work is built over the work you may find [here](https://towardsdatascience.com/how-to-create-a-dataset-with-twitter-and-cloud-computing-fcd82837d313)
+The flowchat is show as followings:
 
-While going through this above link, I realised it does not support Twitter API v2 so I made some changes to the code that you can find in `RetrieveTweets.py`
+![image](https://user-images.githubusercontent.com/39544557/193456523-d9feed28-3259-4244-a8ec-3b4e1bef4339.png)
 
-Additionally I also created a script to get the Stream records `GetRecords.py`
+
+This project deals with how you can stream tweets using Twitter API v2 using Tweepy and insert them into a Kinesis Data Stream. This work is based on SUFIANKAKI/tweets2kinesis
+
+While going through this above link, I have upgraded the Twitter Developer to ELEVATED user.
+![image](https://user-images.githubusercontent.com/39544557/193456404-1d0147c0-77e6-4e7d-96ab-630a291e444a.png)
+
+I have used ready-made script to get the Stream records `GetRecords.py`
 
 I executed these scripts on an EC2 instance to which I attached an **IAM Role** allowing it to have the following permissions
 Kinesis
@@ -15,4 +21,4 @@ Kinesis
   - Describe Stream
   - Get Shard Iterator
   
-You may find the video walkthrough of this implementation [here]()
+To reach S3 bucket will be create s3 bucket name and will go through Kinesis ingestion.
