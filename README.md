@@ -5,7 +5,7 @@ The flowchat of the work is showing as followings:
 ![image](https://user-images.githubusercontent.com/39544557/193456523-d9feed28-3259-4244-a8ec-3b4e1bef4339.png)
 
 
-This work deals with how you can stream tweets using Twitter API v2 using Tweepy and insert them into a Kinesis Data Stream. This work is based on SUFIANKAKI/tweets2kinesis
+This work deals with how you can stream tweets using Twitter API v2 using Tweepy and insert them into a Kinesis Data Stream. The monitored keyword is hashtag SPORT, to trace the twitter ID, TIMESTAMPS and Contents of the threads which is under hashtage SPORT. This work is based on SUFIANKAKI/tweets2kinesis
 
 While going through this work,I have upgraded the Twitter Developer to ELEVATED user.
 ![image](https://user-images.githubusercontent.com/39544557/193456404-1d0147c0-77e6-4e7d-96ab-630a291e444a.png)
