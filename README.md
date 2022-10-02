@@ -2,7 +2,7 @@
 
 This work is based on SUFIANKAKI/tweets2kinesis
 
-This work deals with how you can stream tweets using Twitter API v2 using Tweepy and insert them into a Kinesis Data Stream. The monitored keyword is hashtag SPORT, to trace the twitter ID, TIMESTAMPS and Contents of the threads which is under hashtag SPORT. 
+This work deals with how you can stream tweets using Twitter API v2 using Tweepy and insert them into a Kinesis Data Stream. The monitored keyword is "hashtag sports lang:en", to trace the twitter ID, TIMESTAMPS and Contents of the threads which is under "hashtag sports lang:en". 
 
 ![image](https://user-images.githubusercontent.com/39544557/193456523-d9feed28-3259-4244-a8ec-3b4e1bef4339.png)
 
